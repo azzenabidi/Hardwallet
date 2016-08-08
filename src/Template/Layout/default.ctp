@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'MyTelecom ~ IT Asset Management App ';
+$cakeDescription = 'Hardwallet ~ IT Asset Management App ';
 ?>
 <!DOCTYPE html>
 <html>
