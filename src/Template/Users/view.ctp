@@ -15,8 +15,8 @@
     <h3><?= h($user->name) ?></h3>
     <table class="vertical-table">
         <tr>
-            <th><?= __('Email') ?></th>
-            <td><?= h($user->email) ?></td>
+            <th><?= __('identity') ?></th>
+            <td><?= h($user->identity) ?></td>
         </tr>
         <tr>
             <th><?= __('Name') ?></th>

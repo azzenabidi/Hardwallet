@@ -19,7 +19,7 @@
     <fieldset>
         <legend><?= __('Edit User') ?></legend>
         <?php
-            echo $this->Form->input('email');
+            echo $this->Form->input('identity');
             echo $this->Form->input('name');
             echo $this->Form->input('surname');
             echo $this->Form->input('phone');

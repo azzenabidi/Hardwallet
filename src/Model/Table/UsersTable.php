@@ -63,9 +63,9 @@ class UsersTable extends Table
             ->allowEmpty('id', 'create');
 
         $validator
-            ->email('email')
-            ->requirePresence('email', 'create')
-            ->notEmpty('email');
+
+            ->requirePresence('identiy', 'create')
+            ->notEmpty('identiy');
 
         $validator
             ->requirePresence('name', 'create')
@@ -97,7 +97,7 @@ class UsersTable extends Table
      */
     public function buildRules(RulesChecker $rules)
     {
-        $rules->add($rules->isUnique(['email']));
+        $rules->add($rules->isUnique(['identity']));
         $rules->add($rules->existsIn(['department_id'], 'Departments'));
 
         return $rules;

@@ -14,7 +14,7 @@ class AppController extends Controller
             'authenticate' => [
                 'Form' => [
                     'fields' => [
-                        'username' => 'email',
+                        'username' => 'identity',
                         'password' => 'password'
                     ]
                 ]
@@ -35,6 +35,6 @@ class AppController extends Controller
         // Allow the display action so our pages controller
         // continues to work.
         $this->Auth->allow(['display']);
-      
+
     }
 }
