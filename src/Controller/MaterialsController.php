@@ -55,15 +55,17 @@ class MaterialsController extends AppController
             $materials->where(['Users.email LIKE' => "%". $text ."%"]);
                      }
                    }
-        else   if($dpt=="department_id"){
+        else   {
 
-          $text=$this->request->data['search'];
-          if (!empty($text)) {
+
+
           $materials = $this->Materials->find()
           ->contain(['Users.Departments','Models','Categories', 'Constructors']);
             $materials->where(['Departments.id' => $dpt ]);
-                   }
-                 }
+
+
+
+        }
           $this->set(compact('materials'));
           }
         }

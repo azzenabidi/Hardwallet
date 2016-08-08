@@ -3851,3 +3851,467 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
 
 
 
+2016-08-08 15:46:35 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:46:38 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:46:47 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:48:05 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:48:13 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:49:57 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:50:00 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:50:05 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:51:42 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:51:45 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:54:48 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:54:50 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:54:54 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:55:14 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:55:18 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:55:37 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:55:43 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:56:01 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:56:04 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:56:45 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:58:47 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:58:52 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:59:40 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 15:59:43 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 16:01:22 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 16:01:47 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 16:01:51 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 16:02:45 Notice: Notice (8): Undefined variable: materials in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
