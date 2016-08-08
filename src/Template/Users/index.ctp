@@ -14,7 +14,7 @@
         <thead>
             <tr>
 
-                <th><?= $this->Paginator->sort('email') ?></th>
+                <th><?= $this->Paginator->sort('identity') ?></th>
                 <th><?= $this->Paginator->sort('name') ?></th>
                 <th><?= $this->Paginator->sort('surname') ?></th>
                 <th><?= $this->Paginator->sort('phone') ?></th>
@@ -30,7 +30,7 @@
             <?php foreach ($users as $user): ?>
             <tr>
 
-                <td><?= h($user->email) ?></td>
+                <td><?= h($user->identity) ?></td>
                 <td><?= h($user->name) ?></td>
                 <td><?= h($user->surname) ?></td>
                 <td><?= h($user->phone) ?></td>
