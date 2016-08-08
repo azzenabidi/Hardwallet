@@ -52,7 +52,7 @@ class MaterialsController extends AppController
             if (!empty($text)) {
             $materials = $this->Materials->find()
             ->contain(['Models', 'Users', 'Categories', 'Constructors']);
-            $materials->where(['Users.email LIKE' => "%". $text ."%"]);
+            $materials->where(['Users.identity LIKE' => "%". $text ."%"]);
                      }
                    }
         else   {
