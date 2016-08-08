@@ -26,10 +26,12 @@
      'Search_Filter',
      [
          ['value' => 'serial_number', 'text' => 'Serial Number', 'style' => 'color:red;'],
-         ['value' => 'department_id', 'text' => 'Department', 'style' => 'color:blue;'],
          ['value' => 'employee_id', 'text' => 'Employee', 'style' => 'color:green;'],
      ]
  );
+        
+        echo $this->Form->input('department_id', ['options' => $departments]);
+
 
         ?>
     </fieldset>
@@ -61,7 +63,7 @@
           <tbody>
               <?php foreach ($materials as $material): ?>
               <tr>
-            
+
                   <td><?= h($material->serial_number) ?></td>
                   <td><?= $material->has('model') ? $this->Html->link($material->model->name, ['controller' => 'Models', 'action' => 'view', $material->model->id]) : '' ?></td>
                   <td><?= $material->has('user') ? $this->Html->link($material->user->name, ['controller' => 'Users', 'action' => 'view', $material->user->id]) : '' ?></td>
