@@ -4299,3 +4299,655 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
 
 
 
+2016-08-08 13:13:03 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 63]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 63
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 13:19:01 Error: Fatal Error (1): Call to a member function find() on boolean in [/var/www/html/MyTT/src/Controller/MaterialsController.php, line 32]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 13:19:01 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/MyTT/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/var/www/html/M...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 13:19:52 Error: Fatal Error (1): Call to a member function find() on boolean in [/var/www/html/MyTT/src/Controller/MaterialsController.php, line 32]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 13:19:52 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/MyTT/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/var/www/html/M...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 13:19:54 Error: Fatal Error (1): Call to a member function find() on boolean in [/var/www/html/MyTT/src/Controller/MaterialsController.php, line 32]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 13:19:54 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/MyTT/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/var/www/html/M...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 13:30:18 Error: Fatal Error (1): Call to a member function find() on boolean in [/var/www/html/MyTT/src/Controller/MaterialsController.php, line 32]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 13:30:18 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/MyTT/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/var/www/html/M...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 13:30:19 Error: Fatal Error (1): Call to a member function find() on boolean in [/var/www/html/MyTT/src/Controller/MaterialsController.php, line 32]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 13:30:19 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/MyTT/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/var/www/html/M...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 13:35:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 13:35:12 Error: Fatal Error (1): Call to a member function find() on boolean in [/var/www/html/MyTT/src/Controller/MaterialsController.php, line 32]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 13:35:12 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/MyTT/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/var/www/html/M...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 13:35:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 13:35:54 Error: Fatal Error (1): Call to a member function find() on boolean in [/var/www/html/MyTT/src/Controller/MaterialsController.php, line 32]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 13:35:54 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/MyTT/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/var/www/html/M...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 13:41:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 13:41:35 Error: Fatal Error (1): Call to a member function find() on boolean in [/var/www/html/MyTT/src/Controller/MaterialsController.php, line 32]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 13:41:35 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/MyTT/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/var/www/html/M...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 13:41:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 13:41:36 Error: Fatal Error (1): Call to a member function find() on boolean in [/var/www/html/MyTT/src/Controller/MaterialsController.php, line 32]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 13:41:36 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/MyTT/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/var/www/html/M...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 13:45:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 13:45:00 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 33]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 33
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 13:45:00 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 65]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 65
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 13:45:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 13:45:52 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/vendor/cakephp/cakephp/src/View/Widget/SelectBoxWidget.php, line 232]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Cake\View\Widget\SelectBoxWidget::_renderOptions() - CORE/src/View/Widget/SelectBoxWidget.php, line 232
+Cake\View\Widget\SelectBoxWidget::_renderContent() - CORE/src/View/Widget/SelectBoxWidget.php, line 164
+Cake\View\Widget\SelectBoxWidget::render() - CORE/src/View/Widget/SelectBoxWidget.php, line 116
+Cake\View\Helper\FormHelper::widget() - CORE/src/View/Helper/FormHelper.php, line 2595
+Cake\View\Helper\FormHelper::select() - CORE/src/View/Helper/FormHelper.php, line 1922
+Cake\View\Helper\FormHelper::_getInput() - CORE/src/View/Helper/FormHelper.php, line 1126
+Cake\View\Helper\FormHelper::input() - CORE/src/View/Helper/FormHelper.php, line 1047
+include - APP/Template/Materials/search.ctp, line 34
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 13:45:52 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 65]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 65
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 13:46:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 13:46:31 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/vendor/cakephp/cakephp/src/View/Widget/SelectBoxWidget.php, line 232]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Cake\View\Widget\SelectBoxWidget::_renderOptions() - CORE/src/View/Widget/SelectBoxWidget.php, line 232
+Cake\View\Widget\SelectBoxWidget::_renderContent() - CORE/src/View/Widget/SelectBoxWidget.php, line 164
+Cake\View\Widget\SelectBoxWidget::render() - CORE/src/View/Widget/SelectBoxWidget.php, line 116
+Cake\View\Helper\FormHelper::widget() - CORE/src/View/Helper/FormHelper.php, line 2595
+Cake\View\Helper\FormHelper::select() - CORE/src/View/Helper/FormHelper.php, line 1922
+Cake\View\Helper\FormHelper::_getInput() - CORE/src/View/Helper/FormHelper.php, line 1126
+Cake\View\Helper\FormHelper::input() - CORE/src/View/Helper/FormHelper.php, line 1047
+include - APP/Template/Materials/search.ctp, line 34
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 13:46:31 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 65]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 65
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 13:48:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 13:48:25 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 65]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 65
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 13:49:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 13:49:28 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 65]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 65
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 13:50:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 13:50:15 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 65]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 65
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 13:51:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 13:51:23 Error: Fatal Error (4): syntax error, unexpected 'contain' (T_STRING) in [/var/www/html/MyTT/src/Controller/MaterialsController.php, line 35]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 13:51:23 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'contain' (T_STRING)
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/MyTT/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/var/www/html/M...', 35)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 13:51:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 13:51:56 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 34]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 13:51:56 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/MyTT/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/var/www/html/M...', 34)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 13:55:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 13:55:37 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 34]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 13:55:37 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/MyTT/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/var/www/html/M...', 34)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 13:57:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 13:57:59 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 65]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 65
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 14:19:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 14:19:48 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 14:20:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 14:20:02 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 14:20:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 14:20:02 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 14:21:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 14:21:24 Error: Fatal Error (1): Call to undefined method App\View\AppView::loadModel() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 32]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 14:21:24 Error: [Cake\Error\FatalErrorException] Call to undefined method App\View\AppView::loadModel()
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/MyTT/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/var/www/html/M...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 14:30:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 14:30:02 Error: Fatal Error (1): Call to undefined method App\View\AppView::loadModel() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 32]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 14:30:02 Error: [Cake\Error\FatalErrorException] Call to undefined method App\View\AppView::loadModel()
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/MyTT/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/var/www/html/M...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 14:30:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 14:30:21 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 14:35:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 14:35:21 Warning: Warning (4096): Argument 1 passed to App\Controller\MaterialsController::beforeRender() must be an instance of App\Controller\Cake\Event\Event, instance of Cake\Event\Event given, called in /var/www/html/MyTT/vendor/cakephp/cakephp/src/Event/EventManager.php on line 407 and defined in [/var/www/html/MyTT/src/Controller/MaterialsController.php, line 73]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\MaterialsController::beforeRender() - APP/Controller/MaterialsController.php, line 73
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 407
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 373
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 596
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 14:35:21 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 14:37:01 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 14:37:04 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 14:37:05 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 14:38:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 14:38:28 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-08 14:38:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 14:38:52 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/html/MyTT/src/Template/Materials/search.ctp, line 64]
+Request URL: /materials/search
+Referer URL: http://localhost:8765/materials/search
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Materials/search.ctp, line 64
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+

@@ -3,7 +3,7 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 use Cake\Datasource\ConnectionManager;
-
+use Cake\Event\Event;
 
 /**
  * Materials Controller
@@ -29,8 +29,13 @@ class MaterialsController extends AppController
         $this->set('_serialize', ['materials']);
     }
     public function search($text=null,$option=null) {
+
+
+
+
       if($this->request->is('post')){
         $option=$this->request->data['Search_Filter'];
+        $dpt= $this->request->data['department_id'];
         if($option=="serial_number"){
         $text=$this->request->data['search'];
         if (!empty($text)) {
@@ -50,19 +55,28 @@ class MaterialsController extends AppController
             $materials->where(['Users.email LIKE' => "%". $text ."%"]);
                      }
                    }
-        else   if($option=="department_id"){
+        else   if($dpt=="department_id"){
 
           $text=$this->request->data['search'];
           if (!empty($text)) {
           $materials = $this->Materials->find()
           ->contain(['Users.Departments','Models','Categories', 'Constructors']);
-            $materials->where(['Departments.name' => $text ]);
+            $materials->where(['Departments.id' => $dpt ]);
                    }
                  }
           $this->set(compact('materials'));
           }
         }
 
+
+
+        public function beforeRender(Event $event)
+        {
+          $this->loadModel('Departments');
+          $departments=$this->Departments->find('list')->select(['id']);
+          $this->set(compact('departments'));
+
+        }
     /**
      * View method
      *
