@@ -25,7 +25,11 @@ class ConstructorsTableTest extends TestCase
      */
     public $fixtures = [
         'app.constructors',
-        'app.materials'
+        'app.materials',
+        'app.models',
+        'app.users',
+        'app.departments',
+        'app.categories'
     ];
 
     /**
