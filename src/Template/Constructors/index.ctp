@@ -15,6 +15,9 @@
                 <th><?= $this->Paginator->sort('name') ?></th>
                 <th><?= $this->Paginator->sort('description') ?></th>
                 <th><?= $this->Paginator->sort('website') ?></th>
+                <th><?= $this->Paginator->sort('email') ?></th>
+                <th><?= $this->Paginator->sort('phone') ?></th>
+                <th><?= $this->Paginator->sort('chief_phone') ?></th>
                 <th><?= $this->Paginator->sort('created') ?></th>
                 <th><?= $this->Paginator->sort('modified') ?></th>
                 <th class="actions"><?= __('Actions') ?></th>
@@ -27,6 +30,9 @@
                 <td><?= h($constructor->name) ?></td>
                 <td><?= h($constructor->description) ?></td>
                 <td><?= h($constructor->website) ?></td>
+                <td><?= h($constructor->email) ?></td>
+                <td><?= h($constructor->phone) ?></td>
+                <td><?= h($constructor->chief_phone) ?></td>
                 <td><?= h($constructor->created) ?></td>
                 <td><?= h($constructor->modified) ?></td>
                 <td class="actions">

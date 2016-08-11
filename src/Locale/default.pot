@@ -1,0 +1,924 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-08-10 11:43+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/CategoriesController.php:55;81
+msgid "The category has been saved."
+msgstr ""
+
+#: Controller/CategoriesController.php:59;85
+msgid "The category could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CategoriesController.php:104
+msgid "The category has been deleted."
+msgstr ""
+
+#: Controller/CategoriesController.php:106
+msgid "The category could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ConstructorsController.php:55;81
+msgid "The constructor has been saved."
+msgstr ""
+
+#: Controller/ConstructorsController.php:59;85
+msgid "The constructor could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ConstructorsController.php:104
+msgid "The constructor has been deleted."
+msgstr ""
+
+#: Controller/ConstructorsController.php:106
+msgid "The constructor could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/DepartmentsController.php:55;81
+msgid "The department has been saved."
+msgstr ""
+
+#: Controller/DepartmentsController.php:59;85
+msgid "The department could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/DepartmentsController.php:104
+msgid "The department has been deleted."
+msgstr ""
+
+#: Controller/DepartmentsController.php:106
+msgid "The department could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/MaterialsController.php:110;140
+msgid "The material has been saved."
+msgstr ""
+
+#: Controller/MaterialsController.php:114;144
+msgid "The material could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MaterialsController.php:167
+msgid "The material has been deleted."
+msgstr ""
+
+#: Controller/MaterialsController.php:169
+msgid "The material could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ModelsController.php:58;85
+msgid "The model has been saved."
+msgstr ""
+
+#: Controller/ModelsController.php:62;89
+msgid "The model could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ModelsController.php:109
+msgid "The model has been deleted."
+msgstr ""
+
+#: Controller/ModelsController.php:111
+msgid "The model could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:37
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: Controller/UsersController.php:91;118
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:95;122
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:142
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/UsersController.php:144
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: Template/Categories/add.ctp:3
+#: Template/Categories/edit.ctp:3
+#: Template/Categories/index.ctp:3;19
+#: Template/Categories/view.ctp:3;50
+#: Template/Constructors/add.ctp:3
+#: Template/Constructors/edit.ctp:3
+#: Template/Constructors/index.ctp:3;23
+#: Template/Constructors/view.ctp:3;69
+#: Template/Departments/add.ctp:3
+#: Template/Departments/edit.ctp:3
+#: Template/Departments/index.ctp:3;17
+#: Template/Departments/view.ctp:3
+#: Template/Materials/add.ctp:3
+#: Template/Materials/edit.ctp:3
+#: Template/Materials/index.ctp:3;29
+#: Template/Materials/search.ctp:3
+#: Template/Materials/view.ctp:3
+#: Template/Models/add.ctp:3
+#: Template/Models/edit.ctp:3
+#: Template/Models/index.ctp:3;19
+#: Template/Models/view.ctp:3
+#: Template/Users/add.ctp:3
+#: Template/Users/edit.ctp:3
+#: Template/Users/index.ctp:3;26
+#: Template/Users/view.ctp:3;71
+msgid "Actions"
+msgstr ""
+
+#: Template/Categories/add.ctp:4
+#: Template/Categories/edit.ctp:10
+#: Template/Categories/view.ctp:6
+#: Template/Materials/add.ctp:9
+#: Template/Materials/edit.ctp:15
+#: Template/Materials/index.ctp:9
+#: Template/Materials/search.ctp:9
+#: Template/Materials/view.ctp:12
+msgid "List Categories"
+msgstr ""
+
+#: Template/Categories/add.ctp:5
+#: Template/Categories/edit.ctp:11
+#: Template/Categories/index.ctp:5
+#: Template/Categories/view.ctp:8
+#: Template/Constructors/add.ctp:5
+#: Template/Constructors/edit.ctp:11
+#: Template/Constructors/index.ctp:5
+#: Template/Constructors/view.ctp:8
+#: Template/Materials/add.ctp:4
+#: Template/Materials/edit.ctp:10
+#: Template/Materials/view.ctp:6
+#: Template/Models/add.ctp:5
+#: Template/Models/edit.ctp:11
+#: Template/Models/index.ctp:5
+#: Template/Models/view.ctp:8
+#: Template/Users/add.ctp:7
+#: Template/Users/edit.ctp:13
+#: Template/Users/index.ctp:7
+#: Template/Users/view.ctp:10
+msgid "List Materials"
+msgstr ""
+
+#: Template/Categories/add.ctp:6
+#: Template/Categories/edit.ctp:12
+#: Template/Categories/index.ctp:6
+#: Template/Categories/view.ctp:9
+#: Template/Constructors/add.ctp:6
+#: Template/Constructors/edit.ctp:12
+#: Template/Constructors/index.ctp:6
+#: Template/Constructors/view.ctp:9
+#: Template/Materials/index.ctp:4
+#: Template/Materials/search.ctp:4
+#: Template/Materials/view.ctp:7
+#: Template/Models/add.ctp:6
+#: Template/Models/edit.ctp:12
+#: Template/Models/index.ctp:6
+#: Template/Models/view.ctp:9
+#: Template/Users/add.ctp:8
+#: Template/Users/edit.ctp:14
+#: Template/Users/index.ctp:8
+#: Template/Users/view.ctp:11
+msgid "New Material"
+msgstr ""
+
+#: Template/Categories/add.ctp:12
+msgid "Add Category"
+msgstr ""
+
+#: Template/Categories/add.ctp:18
+#: Template/Categories/edit.ctp:24
+#: Template/Constructors/add.ctp:23
+#: Template/Constructors/edit.ctp:29
+#: Template/Departments/add.ctp:16
+#: Template/Departments/edit.ctp:22
+#: Template/Materials/add.ctp:27
+#: Template/Materials/edit.ctp:33
+#: Template/Models/add.ctp:18
+#: Template/Models/edit.ctp:24
+#: Template/Users/add.ctp:28
+#: Template/Users/edit.ctp:33
+#: View/Helper/FormHelper.php:1770
+msgid "Submit"
+msgstr ""
+
+#: Template/Categories/edit.ctp:5
+#: Template/Categories/index.ctp:33
+#: Template/Categories/view.ctp:66
+#: Template/Constructors/edit.ctp:5
+#: Template/Constructors/index.ctp:41
+#: Template/Constructors/view.ctp:84
+#: Template/Departments/edit.ctp:5
+#: Template/Departments/index.ctp:31
+#: Template/Materials/edit.ctp:5
+#: Template/Materials/index.ctp:46
+#: Template/Models/edit.ctp:5
+#: Template/Models/index.ctp:33
+#: Template/Users/edit.ctp:5
+#: Template/Users/index.ctp:45
+#: Template/Users/view.ctp:86
+msgid "Delete"
+msgstr ""
+
+#: Template/Categories/edit.ctp:7
+#: Template/Categories/index.ctp:33
+#: Template/Categories/view.ctp:5;66
+#: Template/Constructors/edit.ctp:7
+#: Template/Constructors/index.ctp:41
+#: Template/Constructors/view.ctp:5;84
+#: Template/Departments/edit.ctp:7
+#: Template/Departments/index.ctp:31
+#: Template/Departments/view.ctp:5
+#: Template/Materials/edit.ctp:7
+#: Template/Materials/index.ctp:46
+#: Template/Materials/view.ctp:5
+#: Template/Models/edit.ctp:7
+#: Template/Models/index.ctp:33
+#: Template/Models/view.ctp:5
+#: Template/Users/edit.ctp:7
+#: Template/Users/index.ctp:45
+#: Template/Users/view.ctp:5;86
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/Categories/edit.ctp:18
+#: Template/Categories/view.ctp:4
+msgid "Edit Category"
+msgstr ""
+
+#: Template/Categories/index.ctp:4
+#: Template/Categories/view.ctp:7
+#: Template/Materials/add.ctp:10
+#: Template/Materials/edit.ctp:16
+#: Template/Materials/index.ctp:10
+#: Template/Materials/search.ctp:10
+#: Template/Materials/view.ctp:13
+msgid "New Category"
+msgstr ""
+
+#: Template/Categories/index.ctp:10
+msgid "Categories"
+msgstr ""
+
+#: Template/Categories/index.ctp:31
+#: Template/Categories/view.ctp:64
+#: Template/Constructors/index.ctp:39
+#: Template/Constructors/view.ctp:82
+#: Template/Departments/index.ctp:29
+#: Template/Materials/index.ctp:44
+#: Template/Models/index.ctp:31
+#: Template/Users/index.ctp:43
+#: Template/Users/view.ctp:84
+msgid "View"
+msgstr ""
+
+#: Template/Categories/index.ctp:32
+#: Template/Categories/view.ctp:65
+#: Template/Constructors/index.ctp:40
+#: Template/Constructors/view.ctp:83
+#: Template/Departments/index.ctp:30
+#: Template/Materials/index.ctp:45
+#: Template/Models/index.ctp:32
+#: Template/Users/index.ctp:44
+#: Template/Users/view.ctp:85
+msgid "Edit"
+msgstr ""
+
+#: Template/Categories/index.ctp:41
+#: Template/Constructors/index.ctp:49
+#: Template/Departments/index.ctp:39
+#: Template/Materials/index.ctp:54
+#: Template/Models/index.ctp:41
+#: Template/Users/index.ctp:53
+msgid "previous"
+msgstr ""
+
+#: Template/Categories/index.ctp:43
+#: Template/Constructors/index.ctp:51
+#: Template/Departments/index.ctp:41
+#: Template/Materials/index.ctp:56
+#: Template/Models/index.ctp:43
+#: Template/Users/index.ctp:55
+msgid "next"
+msgstr ""
+
+#: Template/Categories/view.ctp:5
+msgid "Delete Category"
+msgstr ""
+
+#: Template/Categories/view.ctp:16;42
+#: Template/Constructors/view.ctp:16
+#: Template/Departments/view.ctp:14
+#: Template/Models/view.ctp:16
+#: Template/Users/view.ctp:22
+msgid "Name"
+msgstr ""
+
+#: Template/Categories/view.ctp:20
+#: Template/Constructors/view.ctp:20
+#: Template/Departments/view.ctp:18
+#: Template/Models/view.ctp:20
+msgid "Description"
+msgstr ""
+
+#: Template/Categories/view.ctp:24;41
+#: Template/Constructors/view.ctp:40;61
+#: Template/Departments/view.ctp:22
+#: Template/Materials/view.ctp:42
+#: Template/Models/view.ctp:24
+#: Template/Users/view.ctp:46;63
+msgid "Id"
+msgstr ""
+
+#: Template/Categories/view.ctp:28;48
+#: Template/Constructors/view.ctp:44;67
+#: Template/Departments/view.ctp:26
+#: Template/Materials/view.ctp:46
+#: Template/Models/view.ctp:28
+#: Template/Users/view.ctp:50;69
+msgid "Created"
+msgstr ""
+
+#: Template/Categories/view.ctp:32;49
+#: Template/Constructors/view.ctp:48;68
+#: Template/Departments/view.ctp:30
+#: Template/Materials/view.ctp:50
+#: Template/Models/view.ctp:32
+#: Template/Users/view.ctp:54;70
+msgid "Modified"
+msgstr ""
+
+#: Template/Categories/view.ctp:37
+#: Template/Constructors/view.ctp:57
+#: Template/Materials/search.ctp:47
+#: Template/Users/view.ctp:59
+msgid "Related Materials"
+msgstr ""
+
+#: Template/Categories/view.ctp:43
+#: Template/Users/view.ctp:38
+msgid "Password"
+msgstr ""
+
+#: Template/Categories/view.ctp:44
+#: Template/Users/view.ctp:42
+msgid "Role"
+msgstr ""
+
+#: Template/Categories/view.ctp:45
+#: Template/Constructors/view.ctp:64
+#: Template/Users/view.ctp:66
+msgid "User Id"
+msgstr ""
+
+#: Template/Categories/view.ctp:46
+#: Template/Constructors/view.ctp:65
+#: Template/Users/view.ctp:67
+msgid "Category Id"
+msgstr ""
+
+#: Template/Categories/view.ctp:47
+#: Template/Constructors/view.ctp:66
+#: Template/Users/view.ctp:68
+msgid "Constructor Id"
+msgstr ""
+
+#: Template/Constructors/add.ctp:4
+#: Template/Constructors/edit.ctp:10
+#: Template/Constructors/view.ctp:6
+#: Template/Materials/add.ctp:11
+#: Template/Materials/edit.ctp:17
+#: Template/Materials/index.ctp:11
+#: Template/Materials/search.ctp:11
+#: Template/Materials/view.ctp:14
+msgid "List Constructors"
+msgstr ""
+
+#: Template/Constructors/add.ctp:12
+msgid "Add Constructor"
+msgstr ""
+
+#: Template/Constructors/edit.ctp:18
+#: Template/Constructors/view.ctp:4
+msgid "Edit Constructor"
+msgstr ""
+
+#: Template/Constructors/index.ctp:4
+#: Template/Constructors/view.ctp:7
+#: Template/Materials/add.ctp:12
+#: Template/Materials/edit.ctp:18
+#: Template/Materials/index.ctp:12
+#: Template/Materials/search.ctp:12
+#: Template/Materials/view.ctp:15
+msgid "New Constructor"
+msgstr ""
+
+#: Template/Constructors/index.ctp:10
+msgid "Constructors"
+msgstr ""
+
+#: Template/Constructors/view.ctp:5
+msgid "Delete Constructor"
+msgstr ""
+
+#: Template/Constructors/view.ctp:24
+msgid "Website"
+msgstr ""
+
+#: Template/Constructors/view.ctp:28
+msgid "Email"
+msgstr ""
+
+#: Template/Constructors/view.ctp:32
+#: Template/Users/view.ctp:30
+msgid "Phone"
+msgstr ""
+
+#: Template/Constructors/view.ctp:36
+msgid "Chief Phone"
+msgstr ""
+
+#: Template/Constructors/view.ctp:53
+msgid "Address"
+msgstr ""
+
+#: Template/Constructors/view.ctp:62
+#: Template/Materials/view.ctp:22
+#: Template/Users/view.ctp:64
+msgid "Serial Number"
+msgstr ""
+
+#: Template/Constructors/view.ctp:63
+#: Template/Users/view.ctp:65
+msgid "Model Id"
+msgstr ""
+
+#: Template/Departments/add.ctp:4
+#: Template/Departments/edit.ctp:10
+#: Template/Departments/view.ctp:6
+#: Template/Users/add.ctp:5
+#: Template/Users/edit.ctp:11
+#: Template/Users/index.ctp:5
+#: Template/Users/view.ctp:8
+msgid "List Departments"
+msgstr ""
+
+#: Template/Departments/add.ctp:10
+msgid "Add Department"
+msgstr ""
+
+#: Template/Departments/edit.ctp:16
+#: Template/Departments/view.ctp:4
+msgid "Edit Department"
+msgstr ""
+
+#: Template/Departments/index.ctp:4
+#: Template/Departments/view.ctp:7
+#: Template/Users/add.ctp:6
+#: Template/Users/edit.ctp:12
+#: Template/Users/index.ctp:6
+#: Template/Users/view.ctp:9
+msgid "New Department"
+msgstr ""
+
+#: Template/Departments/index.ctp:8
+msgid "Departments"
+msgstr ""
+
+#: Template/Departments/view.ctp:5
+msgid "Delete Department"
+msgstr ""
+
+#: Template/Layout/default.ctp:46
+msgid "Logout"
+msgstr ""
+
+#: Template/Materials/add.ctp:5
+#: Template/Materials/edit.ctp:11
+#: Template/Materials/index.ctp:5
+#: Template/Materials/search.ctp:5
+#: Template/Materials/view.ctp:8
+#: Template/Models/add.ctp:4
+#: Template/Models/edit.ctp:10
+#: Template/Models/view.ctp:6
+msgid "List Models"
+msgstr ""
+
+#: Template/Materials/add.ctp:6
+#: Template/Materials/edit.ctp:12
+#: Template/Materials/index.ctp:6
+#: Template/Materials/search.ctp:6
+#: Template/Materials/view.ctp:9
+#: Template/Models/index.ctp:4
+#: Template/Models/view.ctp:7
+msgid "New Model"
+msgstr ""
+
+#: Template/Materials/add.ctp:7
+#: Template/Materials/edit.ctp:13
+#: Template/Materials/index.ctp:7
+#: Template/Materials/search.ctp:7
+#: Template/Materials/view.ctp:10
+#: Template/Users/add.ctp:4
+#: Template/Users/edit.ctp:10
+#: Template/Users/view.ctp:6
+msgid "List Users"
+msgstr ""
+
+#: Template/Materials/add.ctp:8
+#: Template/Materials/edit.ctp:14
+#: Template/Materials/index.ctp:8
+#: Template/Materials/search.ctp:8
+#: Template/Materials/view.ctp:11
+#: Template/Users/index.ctp:4
+#: Template/Users/view.ctp:7
+msgid "New User"
+msgstr ""
+
+#: Template/Materials/add.ctp:18
+msgid "Add Material"
+msgstr ""
+
+#: Template/Materials/edit.ctp:24
+#: Template/Materials/view.ctp:4
+msgid "Edit Material"
+msgstr ""
+
+#: Template/Materials/index.ctp:13
+msgid "Search for Material"
+msgstr ""
+
+#: Template/Materials/index.ctp:17
+msgid "Materials"
+msgstr ""
+
+#: Template/Materials/search.ctp:19
+msgid "Search By Material | Department| Employee"
+msgstr ""
+
+#: Template/Materials/view.ctp:5
+msgid "Delete Material"
+msgstr ""
+
+#: Template/Materials/view.ctp:26
+msgid "Model"
+msgstr ""
+
+#: Template/Materials/view.ctp:30
+msgid "User"
+msgstr ""
+
+#: Template/Materials/view.ctp:34
+msgid "Category"
+msgstr ""
+
+#: Template/Materials/view.ctp:38
+msgid "Constructor"
+msgstr ""
+
+#: Template/Models/add.ctp:12
+msgid "Add Model"
+msgstr ""
+
+#: Template/Models/edit.ctp:18
+#: Template/Models/view.ctp:4
+msgid "Edit Model"
+msgstr ""
+
+#: Template/Models/index.ctp:10
+msgid "Models"
+msgstr ""
+
+#: Template/Models/view.ctp:5
+msgid "Delete Model"
+msgstr ""
+
+#: Template/Users/add.ctp:14
+msgid "Add User"
+msgstr ""
+
+#: Template/Users/edit.ctp:20
+#: Template/Users/view.ctp:4
+msgid "Edit User"
+msgstr ""
+
+#: Template/Users/index.ctp:12
+msgid "Users"
+msgstr ""
+
+#: Template/Users/login.ctp:5
+msgid "Please enter your identity and password"
+msgstr ""
+
+#: Template/Users/login.ctp:9
+msgid "Login"
+msgstr ""
+
+#: Template/Users/view.ctp:5
+msgid "Delete User"
+msgstr ""
+
+#: Template/Users/view.ctp:18
+msgid "identity"
+msgstr ""
+
+#: Template/Users/view.ctp:26
+msgid "Surname"
+msgstr ""
+
+#: Template/Users/view.ctp:34
+msgid "Department"
+msgstr ""
+
+#: Template/Error/error400.ctp:36
+#: Template/Error/error500.ctp:41
+msgid "Error"
+msgstr ""
+
+#: Template/Error/error400.ctp:38
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:454
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:154
+msgid "Missing CSRF token cookie"
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:158
+msgid "CSRF token mismatch."
+msgstr ""
+
+#: Error/ExceptionRenderer.php:247
+msgid "Not Found"
+msgstr ""
+
+#: Error/ExceptionRenderer.php:249
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: I18n/Number.php:89
+msgid "{0,number,#,###.##} KB"
+msgstr ""
+
+#: I18n/Number.php:91
+msgid "{0,number,#,###.##} MB"
+msgstr ""
+
+#: I18n/Number.php:93
+msgid "{0,number,#,###.##} GB"
+msgstr ""
+
+#: I18n/Number.php:95
+msgid "{0,number,#,###.##} TB"
+msgstr ""
+
+#: I18n/Number.php:87
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:82
+msgid "{0} after"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:82
+msgid "{0} before"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:113
+msgid "just now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:150
+msgid "about a second ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a minute ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about an hour ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:153;328
+msgid "about a day ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:154;329
+msgid "about a week ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:155;330
+msgid "about a month ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:156;331
+msgid "about a year ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:166
+msgid "in about a second"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:167
+msgid "in about a minute"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:168
+msgid "in about an hour"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:169;341
+msgid "in about a day"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:170;342
+msgid "in about a week"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:171;343
+msgid "in about a month"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:172;344
+msgid "in about a year"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:300
+msgid "today"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:364
+msgid "%s ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:365
+msgid "on %s"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:47;125;312
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:51;128;315
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:57;131;318
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:59;134;321
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:64;137
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:68;140
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:72;143
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Network/Response.php:1417
+msgid "The requested file was not found"
+msgstr ""
+
+#: ORM/RulesChecker.php:50
+msgid "This value is already in use"
+msgstr ""
+
+#: ORM/RulesChecker.php:84
+msgid "This value does not exist"
+msgstr ""
+
+#: ORM/RulesChecker.php:107
+msgid "The count does not match {0}{1}"
+msgstr ""
+
+#: Utility/Text.php:744
+msgid "and"
+msgstr ""
+
+#: Validation/Validator.php:103
+msgid "This field is required"
+msgstr ""
+
+#: Validation/Validator.php:104
+msgid "This field cannot be left empty"
+msgstr ""
+
+#: Validation/Validator.php:1518
+msgid "The provided value is invalid"
+msgstr ""
+
+#: View/Helper/FormHelper.php:947
+msgid "New %s"
+msgstr ""
+
+#: View/Helper/FormHelper.php:950
+msgid "Edit %s"
+msgstr ""
+
+#: View/Helper/HtmlHelper.php:770
+msgid "Home"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:530
+msgid "January"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:531
+msgid "February"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:532
+msgid "March"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:533
+msgid "April"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:534
+msgid "May"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:535
+msgid "June"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:536
+msgid "July"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:537
+msgid "August"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:538
+msgid "September"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:539
+msgid "October"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "November"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "December"
+msgstr ""
+

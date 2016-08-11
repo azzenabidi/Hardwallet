@@ -68,6 +68,37 @@ class ConstructorsTable extends Table
         $validator
             ->allowEmpty('website');
 
+        $validator
+            ->email('email')
+            ->requirePresence('email', 'create')
+            ->notEmpty('email');
+
+        $validator
+            ->requirePresence('address', 'create')
+            ->notEmpty('address');
+
+        $validator
+            ->requirePresence('phone', 'create')
+            ->notEmpty('phone');
+
+        $validator
+            ->requirePresence('chief_phone', 'create')
+            ->notEmpty('chief_phone');
+
         return $validator;
+    }
+
+    /**
+     * Returns a rules checker object that will be used for validating
+     * application integrity.
+     *
+     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
+     * @return \Cake\ORM\RulesChecker
+     */
+    public function buildRules(RulesChecker $rules)
+    {
+        $rules->add($rules->isUnique(['email']));
+
+        return $rules;
     }
 }

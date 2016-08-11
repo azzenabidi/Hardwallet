@@ -25,6 +25,18 @@
             <td><?= h($constructor->website) ?></td>
         </tr>
         <tr>
+            <th><?= __('Email') ?></th>
+            <td><?= h($constructor->email) ?></td>
+        </tr>
+        <tr>
+            <th><?= __('Phone') ?></th>
+            <td><?= h($constructor->phone) ?></td>
+        </tr>
+        <tr>
+            <th><?= __('Chief Phone') ?></th>
+            <td><?= h($constructor->chief_phone) ?></td>
+        </tr>
+        <tr>
             <th><?= __('Id') ?></th>
             <td><?= $this->Number->format($constructor->id) ?></td>
         </tr>
@@ -37,15 +49,18 @@
             <td><?= h($constructor->modified) ?></td>
         </tr>
     </table>
+    <div class="row">
+        <h4><?= __('Address') ?></h4>
+        <?= $this->Text->autoParagraph(h($constructor->address)); ?>
+    </div>
     <div class="related">
         <h4><?= __('Related Materials') ?></h4>
         <?php if (!empty($constructor->materials)): ?>
         <table cellpadding="0" cellspacing="0">
             <tr>
                 <th><?= __('Id') ?></th>
-                <th><?= __('Name') ?></th>
-                <th><?= __('Password') ?></th>
-                <th><?= __('Role') ?></th>
+                <th><?= __('Serial Number') ?></th>
+                <th><?= __('Model Id') ?></th>
                 <th><?= __('User Id') ?></th>
                 <th><?= __('Category Id') ?></th>
                 <th><?= __('Constructor Id') ?></th>
@@ -56,9 +71,8 @@
             <?php foreach ($constructor->materials as $materials): ?>
             <tr>
                 <td><?= h($materials->id) ?></td>
-                <td><?= h($materials->name) ?></td>
-                <td><?= h($materials->password) ?></td>
-                <td><?= h($materials->role) ?></td>
+                <td><?= h($materials->serial_number) ?></td>
+                <td><?= h($materials->model_id) ?></td>
                 <td><?= h($materials->user_id) ?></td>
                 <td><?= h($materials->category_id) ?></td>
                 <td><?= h($materials->constructor_id) ?></td>

@@ -10,6 +10,10 @@ use Cake\ORM\Entity;
  * @property string $name
  * @property string $description
  * @property string $website
+ * @property string $email
+ * @property string $address
+ * @property string $phone
+ * @property string $chief_phone
  * @property \Cake\I18n\Time $created
  * @property \Cake\I18n\Time $modified
  *
